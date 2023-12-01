@@ -1,0 +1,6 @@
+#simpleButton {
+  border-style:"solid"
+  border: 2px black;
+  border-radius: 12px;
+  padding: 5px;
+}
