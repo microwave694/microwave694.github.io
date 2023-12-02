@@ -1,1 +1,2 @@
-# me trying to figure out how the hell this works
+# why did you even decide to go to the github repository
+theres legit nothing here........
