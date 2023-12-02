@@ -23,17 +23,44 @@ function load6(){
 function load7(){
 	document.getElementsByClassName('textarea')[0].innerHTML = "<h2>This section covers everything up until the current end of u2 (As of v0.8.1)</h2><br><br>Full U2 guide: <br> <a href='https://docs.google.com/document/d/1y96bNkHLVWIvS3daqwsj8F9MWeps00CcJAgldhNgcaw'>great googly moogly</a> Last updated V0.8.1"
 }
+function loadfake1(){
+	document.getElementsByClassName('textarea')[0].innerHTML = "you do realize this is content that may not even exist"
+}
+function loadfake2(){
+	document.getElementsByClassName('textarea')[0].innerHTML = "lunarians is real!!!"
+}
+function loadfake3(){
+	document.getElementsByClassName('textarea')[0].innerHTML = "which dumbass prestiged grassland???"
+}
+function loadfake4(){
+	document.getElementsByClassName('textarea')[0].innerHTML = "okay so we decelerated grasslands thats insane"
+}
+function loadfake5(){
+	document.getElementsByClassName('textarea')[0].innerHTML = "if you read this you a goober"
+}
+function loadultilities(){
+	document.getElementsByClassName('textarea')[0].innerHTML = "<h2>Various different useful resources found here.</h2><br><br><a href='https://roblox-grass-cutting-incremental.fandom.com/wiki/Roblox_Grass_Cutting_Incremental_Wiki'>The entirety of the gci wiki</a><br><br><a href='https://acodingseal.github.io/Suffix%20Converter'> Seal's useful suffix calculator</a>"
+}
+
 
 
 
 function loadbutton1(){
 	document.getElementById("buttonrow1").hidden = false
 	document.getElementById("buttonrow2").hidden = true
+	document.getElementById("buttonrow3").hidden = true
 }
 
 function loadbutton2(){
 	document.getElementById("buttonrow1").hidden = true
 	document.getElementById("buttonrow2").hidden = false
+	document.getElementById("buttonrow3").hidden = true
+}
+
+function loadfake(){
+	document.getElementById("buttonrow1").hidden = true
+	document.getElementById("buttonrow2").hidden = true
+	document.getElementById("buttonrow3").hidden = false
 }
 
 function darkmode() {

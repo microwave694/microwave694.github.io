@@ -52,8 +52,8 @@ h2 {
   clear:left;
   margin:auto;
   transition:0.5s;
-  disabled:1;
   opacity: 0.6;
+  transition:0.5s;
   cursor: not-allowed;
 }
 .button2 {
@@ -75,6 +75,24 @@ h2 {
 }
 
 .button3 {
+  background-color: #595959;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 10%;
+  height: 35px;
+  border: 1px solid #000000;
+  cursor: pointer;
+  float:right;
+  clear:none;
+  margin:auto;
+  transition:0.5s;
+}
+
+.button4 {
   background-color: #595959;
   border: none;
   color: white;
