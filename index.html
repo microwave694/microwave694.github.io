@@ -1,5 +1,23 @@
 <body>
-
+  <style>
+    .button {
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+    #EarlyGame {
+       background-color: black; 
+       color: black; 
+       border: 2px solid #009933;
+    }
+    #EarlyGame:Hover {
+      background-color: #009933; 
+      color: white;
+    }
+    .mainSideButton {
+      Hidden: false;
+    }
+  </style>
+  
   <script>
     var lastClass = x
     function displayStuff(class) {
@@ -8,4 +26,6 @@
       lastClass = class
     }
   </script>
+
+  <button id="EarlyGame" class="mainSideButton" onclick="displayStuff(early)> Early Game </button>
 </body>
