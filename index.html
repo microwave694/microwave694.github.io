@@ -2,6 +2,9 @@
 <html>
 <head>
 <style>
+	.a {
+	color: #0099ff;
+	}
   .body {
     background-color: #000000;
 	font-family:verdana;
@@ -183,9 +186,9 @@ function showRightSideContent(id) {
   
 
   <div class="sidebuttoncontainer" id="earlyContent" class="content">
+  <div class="button" onclick="showRightSideContent('earlygameG')">Additional Guides</div>
     <div class="button" onclick="showRightSideContent('earlygame1')">Getting Started</div>
-    <div class="button" onclick="showRightSideContent('WIP')">wip</div>
-    <div class="button" onclick="showRightSideContent('WIP')">do a prestige or smth idk</div>
+    <div class="button" onclick="showRightSideContent('earlygame2')">Automation</div>
   </div>
   
   <div class="sidebuttoncontainer" id="galacticContent" class="content">
@@ -222,6 +225,20 @@ function showRightSideContent(id) {
 	  You will probably want to get Upgrades, which you can purchase right infront of the field, by simply clicking on the upgrade you want and then pressing buy. Its that simple. <br><br>
 	  You will unlock stuff by getting more levels, of which the first thing you unlock is at Level 5.</p>
     </div>
-  </div>
+	<div id="earlygame2" class="content">
+		<p> When reaching level 5 you unlock a new building to the left of the field.<br><br>
+		
+		The automation building will allow you to purchase crucial automation early on in the game.<br><br>
+		
+		Currently there only is one upgrade, which is the autocut upgrade. The autocut upgrade simply cuts grass for you. More upgrades will unlock later.
+		<br><br>
+		One other thing to note before your first prestige is that every 10 levels have a 30 second timer in which you have to get the xp requirement, failure to do so will reset the xp requirement and timer, thus limiting your max level.
+		<br></p>
+	</div>
+		<div id="earlygameG" class="content">
+		<p> <a style="color: #0099ff;" href=https://docs.google.com/document/d/1T8WXqSAovEo8_5RtoWslPwyVl9N8TYR-Kep8VrN296s> Early game guide</a> - Made by the Helper Team (including me)
+		</p>
+	</div>
+	</div>
 </body>
 </html>
