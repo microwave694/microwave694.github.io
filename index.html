@@ -1,3 +1,11 @@
 <body>
-hi
+
+  <script>
+    var lastClass = x
+    function displayStuff(class) {
+      document.GetElementByClass(class).Hidden = false
+      document.GetElementByClass(lastClass).Hidden = true
+      lastClass = class
+    }
+  </script>
 </body>
